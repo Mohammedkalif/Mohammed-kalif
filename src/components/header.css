@@ -1,0 +1,73 @@
+/* Container styling */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E4EAEE;
+}
+
+/* Left section styling */
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.actions-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+}
+
+.notification-count {
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+/* Center section styling */
+.center-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 300px;
+    height: 40px;
+    background: #F2F4F6;
+    border: 1px solid #E4EAEE;
+    border-radius: 8px;
+    padding: 0 10px;
+}
+
+/* Right section styling */
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin: 0 10px; /* Adds horizontal spacing between icons */
+    cursor: pointer;
+}
+
+/* Vertical line between icons and profile */
+.vertical-line {
+    height: 40px;
+    width: 1px;
+    background-color: #E4EAEE;
+    margin: 0 10px;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
